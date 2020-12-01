@@ -1,0 +1,210 @@
+
+h1{
+	margin-left: 520px;
+	font-family: Arial;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-right: 70px;
+}
+hr{
+	background-color: black;
+	border-width: 2px;
+}
+button{
+background-color: grey;
+color: white;
+width: 15px;
+size: 20px;
+margin-top: 10px;
+border-radius: 10px;
+outline: transparent;
+font-size: 20px;
+padding: 10px 24px;
+}
+button:hover{
+background-color: #4CAF50;
+}
+button.register{
+	float: left;
+	margin-left: 30px;
+}
+button:logout{
+	float: right;
+	margin-left: 50%;
+	
+}
+#mainimg{
+	height: 100px;
+	margin-top: -67px;
+	width: 100px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+#ground{
+	background-image: url("images/home11.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li{
+	float: left;
+
+	width: 250px;
+	height: 40px;
+	background-color: blue;
+	opacity: .8px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+#footer{
+	float: bottom;
+	background-color: white;
+	height: 10px;
+	margin-top: -55px;
+	width: 100%;
+}
+.foo{
+	margin-top: 73px;
+	margin-left:2.0%;
+float: left;
+width: 22%;
+	}
+	p{
+		font-size: 20px;
+	}
+	#ground{
+		height: 580px;
+	}
+	#mainhome{
+		width: 100%;
+background-color: #efefef;
+		height: 30px;
+	}
+#homescreen{
+	height: 300px;
+	margin-top: 10px;
+	width: 300px;
+	margin-left: 30px;
+	border-radius: 1px;
+}
+#home1{
+width: 60%;
+background-color: white;
+float: left;
+height: 540px;
+
+font-size: 25px;
+	}
+	#home2{
+		width: 40%;
+		height: 540px;
+		background-color: white;
+		float: left;
+	}
+#conte{
+		font-size: 30px;
+	}
+	input{
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 30px;
+	text-align: left;
+	float: left;
+	border-radius: 10px;
+	font-size: 20px;
+	text-decoration-style: inherit;
+	font-weight: 1.7em;
+	font-style: initial;
+}
+label{
+color: black;
+font-size: 20px;
+
+}
+#gen{
+	height: 50px;
+	background-color: red;
+	width: 50px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+#footer1{
+	margin-top: -50px;
+}
+.input-group label{
+	display: block;
+	text-align: left;
+	margin-left: 10%;
+	margin: 3px;
+}
+#admin{
+	width: 100px;
+	height: 100px;
+	margin-left: 30px;
+}
+.slider{
+	overflow: hidden;
+	height: 400px;
+	transform: translate(-30%,-30%);
+	position: absolute;
+	background-size: 100% 100%;
+	box-shadow: 2px 3px 10px 5px maroon;
+	margin-top: 10.6%;
+	margin-left: 44%;
+	width: 79%;
+}
+.slider figure{
+	position: absolute;
+	width: 100%;
+	height: 
+	margin: 0;
+	left: 10%;
+	animation: 3s slider infinite;
+}
+.slider figure img{
+	width: 20%;
+	float: left;
+}
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: -50;
+	}
+	40%{
+		left: -150;
+	}
+	60%{
+		left: -200;
+	}
+	80%{
+		left: -250;
+	}
+	100%{
+		left: -400;
+	}
+	
+}
